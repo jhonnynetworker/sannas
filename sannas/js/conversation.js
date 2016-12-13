@@ -166,7 +166,7 @@ var ConversationPanel = (function() {
       // Não repare. É apenas uma breve gambiarra
       var cont = currentText.split("http");
       var resultado = "";
-      if((cont.length) > 0){
+      if((cont.length) > 1){
         var link1 = currentText.split("http");
         resultado = "<a href='http"+link1[1]+"' target='_blank'>http"+link1[1]+"</a>";
         currentText = link1[0]+resultado;
