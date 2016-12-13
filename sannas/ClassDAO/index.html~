@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Victor Carlos" >
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Login - Rhia</title>
+    
+    <!-- Jquery JS -->
+    <script src="js/jquery.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Font Awesome core CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <!-- ul class="nav nav-pills pull-xs-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul -->
+        </nav>
+        <h3 class="text-muted">Rhia</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 class="display-3">Rhia Login</h1>
+        <p class="lead">Insira os dados a seguir:</p>
+        
+        <div class="row marketing">
+          <form class="f2 row">
+            <fieldset>
+            	<input class="form-control" type="email" placeholder="E-mail" required />
+            	<br />
+            	<input class="form-control" type="password" placeholder="Senha" required />
+            </fieldset>
+            <br />
+            <input class="btn btn-default" type="submit" name="" value="Logar" />
+          </form>
+        </div>
+        
+      </div>
+
+      
+
+      <footer class="footer">
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div> <!-- /container -->
+  </body>
+</html>
