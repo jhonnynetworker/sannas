@@ -59,6 +59,12 @@ var Api = (function() {
     }
 
     // Send request
-    http.send("text="+text);
+
+    if(text == ""){
+      http.send("text=Oi");
+    }else{
+      http.send("text="+text);
+    }
+
   }
 }());
